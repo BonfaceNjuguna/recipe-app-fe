@@ -14,7 +14,7 @@ A React + TypeScript + Vite application using Firebase authentication and Tailwi
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/your-username/recipe-app-fe.git
+git clone https://github.com/BonfaceNjuguna/recipe-app-fe.git
 cd recipe-app-fe
 ```
 
