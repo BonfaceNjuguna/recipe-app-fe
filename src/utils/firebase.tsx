@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCj0VHdxlHWX4WK-spqU1ks4KIUIIle1l8",
-  authDomain: "recipeappfe.firebaseapp.com",
-  projectId: "recipeappfe",
-  storageBucket: "recipeappfe.firebasestorage.app",
-  messagingSenderId: "726737069490",
-  appId: "1:726737069490:web:f52ea5a658f6252ca0f0ab",
-  measurementId: "G-6VZSF7KL0T"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
